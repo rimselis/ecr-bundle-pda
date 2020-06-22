@@ -1,0 +1,15 @@
+code: entando_brand_logo
+
+titles:
+  en: Entando brand logo
+  it: Entando logo del marchio
+
+group: free
+
+customUiPath: widget-template.ftl
+
+# Optional. ConfigUI
+configUi:
+  customElement: todomvc-config # The name of the custom-element used to render the configUI
+  resources:
+    - <bundleid>/static

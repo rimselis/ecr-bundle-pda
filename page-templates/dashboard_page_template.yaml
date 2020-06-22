@@ -1,0 +1,48 @@
+code: dashboard_page_template
+description: Dashboard page template
+
+group: free
+
+templatePath: dashboard_page_template.ftl
+
+configuration:
+  frames:
+    - pos: 0
+      description: Brand
+      sketch: { x1: "0", x2: "1", y1: "0", y2: "0" }
+    - pos: 1
+      description: Navigation bar
+      sketch: { x1: "2", x2: "7", y1: "0", y2: "0" }
+    - pos: 2
+      description: Login widget
+      sketch: { x1: "8", x2: "9", y1: "0", y2: "0" }
+    - pos: 3
+      description: Placeholder
+      sketch: { x1: "10", x2: "11", y1: "0", y2: "0" }
+    - pos: 4
+      description: Top sidebar
+      sketch: { x1: "0", x2: "1", y1: "1", y2: "2" }
+    - pos: 5
+      description: Bottom sidebar
+      sketch: { x1: "0", x2: "1", y1: "3", y2: "6" }
+    - pos: 6
+      description: Dashboard title
+      sketch: { x1: "2", x2: "11", y1: "1", y2: "2" }
+    - pos: 7
+      description: Summary card 1
+      sketch: { x1: "2", x2: "3", y1: "3", y2: "4" }
+    - pos: 8
+      description: Summary card 2
+      sketch: { x1: "4", x2: "5", y1: "3", y2: "4" }
+    - pos: 9
+      description: Summary card 3
+      sketch: { x1: "6", x2: "7", y1: "3", y2: "4" }
+    - pos: 10
+      description: Summary card 4
+      sketch: { x1: "8", x2: "9", y1: "3", y2: "4" }
+    - pos: 11
+      description: Overtime graph
+      sketch: { x1: "2", x2: "11", y1: "5", y2: "6" }
+    - pos: 12
+      description: Footer
+      sketch: { x1: "0", x2: "11", y1: "7", y2: "7" }

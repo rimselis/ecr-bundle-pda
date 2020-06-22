@@ -1,0 +1,12 @@
+{
+  "name": "pda-ecr-bundle",
+  "version": "1.0.0",
+  "description": "An example bundle for PDA related components (widgets, fragments, page templates and pages).",
+  "main": "descriptor.yaml",
+  "license": "LGPL-2.1",
+  "keywords": [
+    "entando6",
+    "digital-exchange",
+    "entando-de-bundle"
+  ]
+}

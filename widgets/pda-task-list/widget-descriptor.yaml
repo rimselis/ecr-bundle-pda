@@ -1,0 +1,16 @@
+code: pda_task_list
+
+titles:
+  en: Entando PDA - Task list
+  it: Entando PDA - Task list
+
+group: free
+
+customUiPath: widget-template.ftl
+
+configUi:
+  customElement: task-list-config
+  resources:
+    - pda-ecr-bundle/pda/static/js/main.a4bf32a2.chunk.js
+    - pda-ecr-bundle/pda/static/js/2.4c400574.chunk.js
+    - pda-ecr-bundle/pda/static/js/runtime-main.19b9e25f.js

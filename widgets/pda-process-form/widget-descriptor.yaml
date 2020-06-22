@@ -1,0 +1,16 @@
+code: pda_process_form
+
+titles:
+  en: Entando PDA - Process form
+  it: Entando PDA - Process form
+
+group: free
+
+customUiPath: widget-template.ftl
+
+configUi:
+  customElement: process-form-config
+  resources:
+    - pda-ecr-bundle/pda/static/js/main.a4bf32a2.chunk.js
+    - pda-ecr-bundle/pda/static/js/2.4c400574.chunk.js
+    - pda-ecr-bundle/pda/static/js/runtime-main.19b9e25f.js

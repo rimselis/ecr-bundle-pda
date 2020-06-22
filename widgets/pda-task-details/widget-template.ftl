@@ -1,0 +1,20 @@
+<#assign wp=JspTaglibs["/aps-core"]>
+<#if RequestParameters.taskId?exists>
+  <#assign taskId= RequestParameters.taskId>
+<#else>
+  <#assign taskId= "">
+</#if>
+<#if RequestParameters.taskPos?exists>
+  <#assign taskPos= RequestParameters.taskPos>
+<#else>
+  <#assign taskPos= "">
+</#if>
+
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<link href="<@wp.resourceURL />pda-ecr-bundle/pda/static/css/2.2a48504c.chunk.css" rel="stylesheet">
+<link href="<@wp.resourceURL />pda-ecr-bundle/pda/static/css/main.43de54a9.chunk.css" rel="stylesheet">
+<script src="<@wp.resourceURL />pda-ecr-bundle/pda/static/js/main.a4bf32a2.chunk.js"></script>
+<script src="<@wp.resourceURL />pda-ecr-bundle/pda/static/js/2.4c400574.chunk.js"></script>
+<script src="<@wp.resourceURL />pda-ecr-bundle/pda/static/js/runtime-main.19b9e25f.js"></script>
+<task-details service-url="/pda" page-code="${Request.reqCtx.getExtraParam('currentPage').code}" frame-id="${Request.reqCtx.getExtraParam('currentFrame')}" id="${taskId}" task-pos="${taskPos}" />
