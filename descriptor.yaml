@@ -14,4 +14,7 @@ components:
 description: "An example bundle for PDA related components (widgets, fragments, page templates and pages)."
 organization: Entando
 title: PDA ECR bundle with tags
+author:
+  name: Martynas Rimšelis
+  email: rimselis@gmail.com
 
